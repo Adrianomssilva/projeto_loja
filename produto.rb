@@ -14,7 +14,7 @@ class Produto
    end
 
    def to_s
-      "Marca: #{@marca}, Tipo: #{@tipo},Cor: #{@cor},Valor: R$#{@valor}"
+      "Marca: #{@marca}, Tipo: #{@tipo}, Cor: #{@cor}, Valor: R$#{@valor}"
    end
-   
+
 end
