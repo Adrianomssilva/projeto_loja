@@ -17,4 +17,8 @@ class Produto
       "Marca: #{@marca}, Tipo: #{@tipo}, Cor: #{@cor}, Valor: R$#{@valor}"
    end
 
+   def produto
+      produto = []
+      produto.push(@marca, @tipo, @cor, @valor)
+   end
 end
