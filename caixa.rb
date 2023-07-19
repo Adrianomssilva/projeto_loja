@@ -16,7 +16,7 @@ class Caixa
 
   def total
     total = @valores.sum
-    puts total
+    puts "O total a pagar é #{total}"
   end
 
 end

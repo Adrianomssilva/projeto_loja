@@ -34,6 +34,6 @@ caixa.add_carrinho (palete_eudora.valor)
 caixa.add_carrinho (hidratante_lavictoria.valor)
 caixa.add_carrinho(hidratante_victoriasecret.valor)
 
-caixa.show_carrinho
+# caixa.show_carrinho
 
 caixa.total
