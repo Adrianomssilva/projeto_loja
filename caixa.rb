@@ -1,16 +1,22 @@
 class Caixa
-   attr_accessor :valor
-   attr_reader :resultado
 
-   def initialize(valor, resultado)
-     @valor = valor
-     @resultado = resultado
-   end
+  def initialize
+    @valores ||= []
+  end
 
-   def soma(valor)
+  def add_carrinho (valor_produto)
+    @valores << valor_produto
 
-      resultado += valor
+  end
 
+  def show_carrinho
+    puts @valores
 
-   
+  end 
+
+  def total
+    total = @valores.sum
+    puts total
+  end
+
 end
