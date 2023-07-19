@@ -18,8 +18,8 @@ hidratante_lavictoria = Produto.new("La Victoria", "Hidratante", 50.0, "N/a")
 puts palete_eudora.valor
 puts hidratante_lavictoria.valor
 
-def resultado ( valor1, valor2)
-   resultado = valor1 + valor2 
+def resultado ( valor) |resultado| 
+   resultado += valor
    puts resultado
 end
 
