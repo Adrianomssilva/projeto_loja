@@ -7,7 +7,8 @@ class Estoque
    
    def adiciona (produto_tipo, produto)
       
-      @produtos.store(produto_tipo,produto)
+      @produtos[produto_tipo] ||= []
+      @produtos[produto_tipo] << produto
 
    end
 
