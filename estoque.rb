@@ -16,6 +16,11 @@ class Estoque
      p @produtos
    end
 
-
+   def mostrar_produtos
+    @produtos.each do |produto_tipo, produtos|
+      puts "Produtos do tipo #{produto_tipo}: #{produtos.inspect}"
+    end
+   end
+   
    
 end

@@ -15,7 +15,7 @@ estoque.adiciona(hidratante_victoriasecret.tipo, hidratante_victoriasecret.produ
 
 
 
-estoque.produtos
+estoque.mostrar_produtos
 
 # puts palete_eudora.valor
 # puts hidratante_lavictoria.valor
