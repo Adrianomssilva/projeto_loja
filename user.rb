@@ -1,5 +1,20 @@
-#  ciar uma parte em que o usuário possa add os dados das compras
-# pensar como o caixa de um supermercado que vai add itens e eles vão sendo contabilizados
-# criar um loop talvez seja uma boa. Começar a estudar ruby and rails para implementar melhorias nessa parte visual
-# Estudar banco de dados tbm
-#  comando básicos de terminal
+class Agenda
+   attr_accessor :nome
+   attr_accessor :data_nascimento
+   attr_accessor :tel
+   
+
+   def initialize()
+      @nome = nome
+      @data_nascimento = data_nascimento
+      @tel = tel
+      @agenda = []
+   end
+
+   def adicionar(user)
+      agenda << user 
+      
+   end
+      
+   
+end
