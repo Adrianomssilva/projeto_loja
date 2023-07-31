@@ -10,3 +10,10 @@ class Cliente
       @tel = tel
 
    end
+
+   # def cliente
+      
+   #    cliente  = {}
+   #    cliente <<
+
+end
